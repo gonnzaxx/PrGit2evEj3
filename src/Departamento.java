@@ -5,4 +5,8 @@ public class Departamento {
     void anadir(Empleado v){
         empleados[0]=v;
     }
+
+    public Departamento(String nombre) {
+        this.nombre = nombre;
+    }
 }
